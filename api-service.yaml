@@ -5,12 +5,10 @@ metadata:
 spec:
   selector:
     app: synergychat-api
-  type: NodePort
   ports:
   - name: api-service
     protocol: TCP
     port: 80
     targetPort: 8080
-    nodePort: 30080
 ---
 
