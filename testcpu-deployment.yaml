@@ -1,11 +1,10 @@
-apiVersion: apps/v1
+ion: apps/v1
 kind: Deployment
 metadata:
   labels:
     app: synergychat-testcpu
   name: synergychat-testcpu
 spec:
-  replicas: 1
   selector:
     matchLabels:
       app: synergychat-testcpu
